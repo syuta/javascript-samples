@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Form Sample</title>
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.0a1/jquery.mobile-1.0a1.min.css" />
+    <script src="http://code.jquery.com/jquery-1.4.3.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.0a1/jquery.mobile-1.0a1.min.js"></script>
+  </head>
+  <body> 
+    
+    <div data-role="page" data-fullscreen="true"> 
+      <div data-role="content"> 
+
+	<h1>フォームサンプル</h1>
+	<form action="sample.html" method="post">
+	  <h1>インプット</h1>
+	  <div data-role="fieldcontain">
+	    <label for="name">テキストインプット:</label>
+	    <input type="text" name="name" id="name" value=""  />
+
+	    <label for="password">パスワードインプット:</label>
+	    <input type="password" name="password" id="password" value="" />
+
+	    <label for="textarea">テキストエリア:</label>
+	    <textarea cols="40" rows="8" name="textarea" id="textarea"></textarea>
+
+	    <label for="search">サーチインプット:</label>
+	    <input type="search" name="search" id="search" value="" />
+	  </div>	
+
+	  <h1>スライダー</h1>
+	  <div data-role="fieldcontain2">
+	    <label for="slider">スライダー:</label>
+ 	    <input type="range" name="slider" id="slider" value="0" min="0" max="100"  />
+	  </div>
+	</form>
+      </div><!-- /content --> 
+    </div><!-- /page -->  
+  </body> 
+</html>

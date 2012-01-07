@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>HTMLファイルサンプル</title>
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.0a1/jquery.mobile-1.0a1.min.css" />
+    <script src="http://code.jquery.com/jquery-1.4.3.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.0a1/jquery.mobile-1.0a1.min.js"></script>
+  </head>
+  <body>
+<body> 
+  <!-- Start of first page -->
+  <div data-role="page" id="first">
+    <div data-role="header">
+      <h1>トップページ</h1>
+    </div><!-- /header -->
+    
+b    <div data-role="content">	
+      <p>トップページを表示しています!</p>		
+      <p>内部のページを呼ぶ<a href="#second">second</a></p>	
+    </div><!-- /content -->
+
+    <div data-role="footer">
+      <h4>フッター１</h4>
+    </div><!-- /header -->
+  </div><!-- /page -->
+
+
+  <!-- Start of second page -->
+  <div data-role="page" id="second">
+    
+    <div data-role="header">
+      <h1>次のページ</h1>
+    </div><!-- /header -->
+    
+    <div data-role="content">	
+      <p>トップページからきた次のページ!</p>		
+      <p><a href="#first">firstページに戻る</a></p>	
+    </div><!-- /content -->
+    
+    <div data-role="footer">
+      <h4>フッター２</h4>
+    </div><!-- /header -->
+  </div><!-- /page -->
+</body>
+</html>

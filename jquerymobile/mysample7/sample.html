@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>レイアウト</title>
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.0a1/jquery.mobile-1.0a1.min.css" />
+    <script src="http://code.jquery.com/jquery-1.4.3.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.0a1/jquery.mobile-1.0a1.min.js"></script>
+  </head>
+  <body> 
+    
+    <div data-role="page" data-fullscreen="true"> 
+      <div data-role="content"> 
+
+	<h1>レイアウトグリッド</h1>
+	
+	<div class="ui-grid-a">
+	  <div class="ui-block-a"><strong>Block A</strong> and text inside will wrap</div>
+	  <div class="ui-block-b"><strong>Block B</strong> and text inside will wrap</div>
+	</div>
+
+	<h1>ui-grid-a,要素２つ</h1>
+	<fieldset class="ui-grid-a">
+	  <div class="ui-block-a"><button type="submit" data-theme="c">キャンセル</button></div>
+	  <div class="ui-block-b"><button type="submit" data-theme="b">OK</button></div>	   
+	</fieldset>
+	
+	<h1>ui-grid-b,要素２つ</h1>
+	<div class="ui-grid-b"> 
+	  <div class="ui-block-a"><div class="ui-bar ui-bar-e" style="height:120px">Block A</div></div> 
+	  <div class="ui-block-b"><div class="ui-bar ui-bar-e" style="height:120px">Block B</div></div> 
+	</div><!-- /grid-b --> 
+
+	<h1>ui-grid-a,要素3つ</h1>
+	<div class="ui-grid-a"> 
+	  <div class="ui-block-a"><div class="ui-bar ui-bar-e" style="height:120px">Block A</div></div> 
+	  <div class="ui-block-b"><div class="ui-bar ui-bar-e" style="height:120px">Block B</div></div> 
+	  <div class="ui-block-c"><div class="ui-bar ui-bar-e" style="height:120px">Block C</div></div> 
+	</div><!-- /grid-a --> 
+
+	<h1>ui-grid-b,要素3つ</h1>	
+	<fieldset class="ui-grid-b"> 
+	  <div class="ui-block-a"><button type="submit" data-theme="c">Nope</button></div> 
+	  <div class="ui-block-b"><button type="submit" data-theme="a">Maybe</button></div>	 
+	  <div class="ui-block-b"><button type="submit" data-theme="b">Yes</button></div>  
+	</fieldset>
+ 
+      </div><!-- /content --> 
+    </div><!-- /page -->  
+  </body> 
+</html>
+
+

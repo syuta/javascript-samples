@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>CSS切り替え</title>
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.0a1/jquery.mobile-1.0a1.min.css" />
+    <script src="http://code.jquery.com/jquery-1.4.3.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.0a1/jquery.mobile-1.0a1.min.js"></script>
+  </head>
+  <body> 
+    
+    <div data-role="page" data-fullscreen="true" id="first"> 
+      <div data-role="content"> 
+	<h1>切り替えサンプル</h1>
+	<p id="content_p">いろいろと切り替えます。</p>
+	<p>表示はブラウザ用とスマートフォン用で切り替えます。</p>
+	<a href="#second" data-role="button">内部ページ遷移</a>
+	<input type="button" value="ボタン" data-icon="back" /> 
+	<input type="submit" value="警告" data-icon="alert" /> 
+	<input type="reset" value="情報" data-icon="info" /> 
+
+      </div><!-- /content --> 
+    </div><!-- /page -->  
+
+    <!-- Start of second page -->
+    <div data-role="page" id="second">
+      
+      <div data-role="header">
+	<h1>次のページ</h1>
+      </div><!-- /header -->
+      
+      <div data-role="content">	
+	<p>トップページからきた次のページ!</p>		
+	<p><a href="#first">firstページに戻る</a></p>	
+      </div><!-- /content -->
+      
+      <div data-role="footer">
+	<h4>フッター２</h4>
+      </div><!-- /header -->
+    </div><!-- /page -->
+  <script src="change.js"></script>
+  </body> 
+</html>
+
+

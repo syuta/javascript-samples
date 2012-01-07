@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>ボタン２</title>
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.0a1/jquery.mobile-1.0a1.min.css" />
+    <script src="http://code.jquery.com/jquery-1.4.3.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.0a1/jquery.mobile-1.0a1.min.js"></script>
+  </head>
+  <body> 
+    
+    <div data-role="page" data-fullscreen="true"> 
+      <div data-role="content"> 
+
+	<h1>いろいろなアイコン</h1>
+	<a href="sample.html" data-role="button" data-icon="delete">削除</a>
+	<input type="button" value="普通のボタンもOK" data-icon="back" /> 
+	<input type="submit" value="警告" data-icon="alert" /> 
+	<input type="reset" value="情報" data-icon="info" /> 
+
+	<h1>アイコン位置変更</h1>
+	<a href="sample.html" data-role="button" data-icon="star" data-iconpos="right">アイコン右</a>
+
+	<h1>アイコンだけのボタン</h1>
+	<a href="sample.html" data-role="button" data-icon="grid" data-iconpos="notext">グリッド</a>
+
+	<h1>インラインボタン</h1>
+	<a href="sample.html" data-role="button" data-icon="star" data-inline="true">インラインボタン</a>
+	<div data-inline="true">
+	  <a href="sample.html" data-role="button" data-inline="true">キャンセル</a>
+	  <a href="sample.html" data-role="button" data-theme="b" data-inline="true">セーブ</a>
+	</div>
+
+	<h1>ボタングループ１</h1>
+	<div data-role="controlgroup">
+	  <a href="index.html" data-role="button">はい</a>
+	  <a href="index.html" data-role="button">いいえ</a>
+	  <a href="index.html" data-role="button">たぶん</a>
+	</div>
+
+	<h1>ボタングループ２</h1>
+	<div data-role="controlgroup" data-type="horizontal" > 
+	  <a href="index.html" data-role="button" data-icon="arrow-u">上</a> 
+	  <a href="index.html" data-role="button" data-icon="arrow-d">下</a> 
+	  <a href="index.html" data-role="button" data-icon="delete">削除</a> 
+	</div> 
+		
+	<h1>ボタングループ３</h1>
+	<div data-role="controlgroup" data-type="horizontal" > 
+	  <a href="index.html" data-role="button" data-icon="arrow-u" data-iconpos="notext">上</a> 
+	  <a href="index.html" data-role="button" data-icon="arrow-d" data-iconpos="notext">下</a> 
+	  <a href="index.html" data-role="button" data-icon="delete" data-iconpos="notext">削除</a> 
+	</div> 
+      </div><!-- /content --> 
+    </div><!-- /page -->  
+  </body> 
+</html>
+
+

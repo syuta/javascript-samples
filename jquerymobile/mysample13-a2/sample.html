@@ -1,0 +1,59 @@
+<!DOCTYPE html> 
+<html> 
+	<head> 
+	  <meta charset="UTF-8">
+	  <title>Events</title> 
+	  <link rel="stylesheet" href="http://code.jquery.com/mobile/1.0a1/jquery.mobile-1.0a1.min.css" />
+	  <script src="http://code.jquery.com/jquery-1.4.4.min.js"></script>
+	  <script src="myinit.js"></script>
+	  <script src="http://code.jquery.com/mobile/1.0a2/jquery.mobile-1.0a2.min.js"></script>
+	</head> 
+<body> 
+
+<div data-role="page" id="first">
+
+  <div data-role="header">
+    <h1>Events</h1>
+  </div><!-- /header -->
+  
+  <div data-role="content">	
+    
+    <div data-role="content">	
+    <p>トップページを表示しています!</p>		
+    <p>内部のページを呼ぶ<a href="#second">second</a></p>	
+    <input type="button" id="btn" value="click!" />		
+    </div><!-- /content -->
+
+  </div><!-- /content -->
+  
+  <div data-role="footer">
+    <h4>Page Footer</h4>
+  </div><!-- /header -->
+  
+</div><!-- /page -->
+
+
+  <!-- Start of second page -->
+  <div data-role="page" id="second">
+    
+    <div data-role="header">
+      <h1>次のページ</h1>
+    </div><!-- /header -->
+    
+    <div data-role="content">	
+      <p>トップページからきた次のページ!</p>		
+      <p><a href="#first">firstページに戻る</a></p>	
+    </div><!-- /content -->
+    
+    <div data-role="footer">
+      <h4>フッター２</h4>
+    </div><!-- /header -->
+  </div><!-- /page -->
+  
+  
+  
+<script src="myclick.js"></script>
+
+</body>
+</html>
+
